@@ -18,9 +18,21 @@ h2 {
     font-size: 18px;
 }
 
-img { 
+.icon { 
     max-width: 50%;
     height:auto;
+}
+
+.headshot { 
+    max-width: 50%;
+    height:auto;
+    border-radius: 100%;
+}
+
+.mobile-headshot { 
+    max-width: 50%;
+    height:auto;
+    border-radius: 100%;
 }
 
 a { 
@@ -29,12 +41,9 @@ a {
     font-size: 12px;
 }
 
-a:unvisited{ 
-    
-}
 
 .subtitle{ 
-    font-family: var(--default-font-family);
+    font-family: var(--heading-font-family);
     font-size: 20px;
 }
 
@@ -53,6 +62,11 @@ a:unvisited{
     padding: 100px 20px;
 }
 
+.main-element-about { 
+    background: radial-gradient(905px at 4.9% 85.8%, rgb(255, 243, 242) 0.1%, rgb(255, 247, 220) 57.6%);
+    padding: 60px 20px;
+}
+
 .btn { 
     padding: 10px 10px; 
     background: rgb(255, 247, 220);
@@ -65,14 +79,26 @@ a:unvisited{
     transition: 0.3s;
 }
 
+.about-title { 
+    font-family: var(--default-font-family); 
+    font-size: 36px;
+}
+
 @media screen and (max-width: 900px){
     h1{
-        font-size34px;
+        font-size:34px;
     }
 
     .subtitle, .project-title{ 
         font-size:16px;
     }
+
+    .headshot { 
+        max-width: 80%;
+        height:max-content;
+
+    }
+
 
 
 }
