@@ -67,6 +67,11 @@ a:active{
     font-size: 20px;
 }
 
+.project-desc { 
+    font-family: var(--default-font-family); 
+    font-size: 12px
+}
+
 .radial-bk { 
     background:  rgb(255, 247, 220);
 
@@ -99,6 +104,17 @@ a:active{
     font-size: 36px;
 }
 
+.project-img{ 
+    padding: 40px 40px; 
+    border-radius: 5px;
+    background: radial-gradient(905px at 4.9% 85.8%, rgb(255, 243, 242) 0.1%, rgb(255, 247, 220) 57.6%);
+}
+
+.icons { 
+    max-width: 60%;
+    height: auto;
+}
+
 @media screen and (max-width: 900px){
     h1{
         font-size:34px;
@@ -111,7 +127,10 @@ a:active{
     .headshot { 
         max-width: 80%;
         height:max-content;
+    }
 
+    .icons {
+        visibility: hidden;
     }
 
 
